@@ -2,34 +2,60 @@
 
 <script>
 
-var currentMovie = "movie1";
+var currentMovie = "";
+var mainLoopDuration = 18000;
+var introDuration = 9000;
 
 function swapMovies() {
+  document.getElementById(currentMovie).className = "movie offScreen";
   if (currentMovie == "movie1") {
-    document.location = "/flash_swap_test.html#movie2";
     currentMovie = "movie2";
   } else {
-    document.location = "/flash_swap_test.html#movie1";    
     currentMovie = "movie1";
   }
-  setTimeout(swapMovies, 2000);
+  document.getElementById(currentMovie).className = "movie";
+  setTimeout(swapMovies, mainLoopDuration);
+  setTimeout(addMovieToInactiveDiv, mainLoopDuration - introDuration);
 }
 
-function addMovie(id) {
-  var element = document.getElementById(id);
-  element.innerHTML = '<embed width="951" height="500" quality="high" name="PluginObject_plugin_gbL4xY949Bc0765916b4" id="PluginObject_plugin_gbL4xY949Bc0765916b4" src="/preview.swf" type="application/x-shockwave-flash"/>';
+function addMovieToInactiveDiv() {
+  if (currentMovie == "movie1") {
+    var element = document.getElementById("movie2");
+  } else {
+    var element = document.getElementById("movie1");
+  }
+  element.innerHTML = '<h1>' + element.id + '</h1><embed width="951" height="500" quality="high" name="PluginObject_plugin_gbL4xY949Bc0765916b4" id="PluginObject_plugin_gbL4xY949Bc0765916b4" src="/preview.swf" type="application/x-shockwave-flash"/>';
 }
 
 window.onload = function() {
-  addMovie("movie2");
-  setTimeout(swapMovies, 10000);
+  addMovieToInactiveDiv();
+  currentMovie = "movie1";
+  setTimeout(addMovieToInactiveDiv, mainLoopDuration)
+  setTimeout(swapMovies, mainLoopDuration + introDuration);
 }
 
 </script>
 
 <style>
+  body {
+    background-color: #AD1A22;
+  }
+
   .movie {
-    margin-bottom: 30em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  h1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+
+  .offScreen { 
+    left: -1000px;
   }
 
 </style>
@@ -37,18 +63,11 @@ window.onload = function() {
 <body>
 
 <div id="movie1" class="movie">
-  <embed width="951" height="500" 
-  quality="high" 
-  name="PluginObject_plugin_gbL4xY949Bc0765916b4" 
-  id="PluginObject_plugin_gbL4xY949Bc0765916b4" 
-  src="/preview.swf" 
-  type="application/x-shockwave-flash"/>
 </div>
 
 
 
-<div id="movie2" class="movie">
-  
+<div id="movie2" class="movie offScreen">
 </div>
 
 </body>
