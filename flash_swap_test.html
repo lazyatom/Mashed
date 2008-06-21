@@ -24,16 +24,23 @@
     } else {
       var element = document.getElementById("movie1");
     }
-    var embed_tag = '<h1>' + element.id + '</h1>';
-    embed_tag += '<embed width="951" height="500" quality="high"';
-    embed_tag += ' name="PluginObject_plugin_gbL4xY949Bc0765916b4"';
-    embed_tag += ' id="PluginObject_plugin_gbL4xY949Bc0765916b4"';
-    embed_tag += ' src="/preview.swf" type="application/x-shockwave-flash"/>';
-    element.innerHTML = embed_tag;
+    var embedTag = '<h1>' + element.id + '</h1>';
+    
+    flashVars = "";
+    for(i = 0; i < arguments.length; i++) {
+      flashVars += "field" + (i+1) + "=" + arguments[i];
+    }
+    
+    embedTag += '<embed width="951" height="500" quality="high"';
+    embedTag += ' name="PluginObject_plugin_gbL4xY949Bc0765916b4"';
+    embedTag += ' id="PluginObject_plugin_gbL4xY949Bc0765916b4"';
+    embedTag += ' flashvars=' + flashVars;
+    embedTag += ' src="/preview.swf" type="application/x-shockwave-flash"/>';
+    element.innerHTML = embedTag;
   }
 
   window.onload = function() {
-    addMovieToInactiveDiv();
+    addMovieToInactiveDiv("MONKEY", "JAZZ", "FUNKY", "DANCE");
     currentMovie = "movie1";
     setTimeout(addMovieToInactiveDiv, mainLoopDuration)
     setTimeout(swapMovies, mainLoopDuration + introDuration);
