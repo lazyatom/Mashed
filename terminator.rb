@@ -5,6 +5,7 @@ $LOAD_PATH << File.join(File.dirname(__FILE__), *%w[lib])
 require 'phrase'
 require 'word_list'
 require 'flickr'
+require 'wikipedia'
 
 class Well
   def initialize
@@ -44,4 +45,16 @@ File.readlines(ARGV[0]).each do |line|
   end
 end
 
-well.show { |p| p.words.without_stop_words }
+well.show do |p| 
+  w = wikipedia_data_for(p.words.without_stop_words.proper_nouns)
+  unless w.nil?  
+    entry = "Name: #{w[:name]} "
+    case w[:type] 
+      when 'person'
+        entry << "Born: #{w[:bday]}"
+      when 'location'
+        entry << "Lat: #{w[:lat]}, Long: #{w[:long]}"
+    end
+    entry
+  end
+end

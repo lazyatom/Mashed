@@ -3,21 +3,25 @@ require 'hpricot'
 require 'open-uri'
 
 def wikipedia_data_for(word)
-  doc = Hpricot(open("http://en.wikipedia.org/wiki/Special:Search?search=#{word}&fulltext=Search"))
-  data = { :description => doc.at("//div[@class='bodyContent]/p") }
-  
-  if doc.at("//span[@class='latitude']")
+  doc = Hpricot(open("http://en.wikipedia.org/wiki/Special:Search?search=#{word}"))
+  data = { :name => (doc/"h1.firstHeading").first.inner_html }
+  #, :description => (doc/"div.bodyContent/p").first.inner_html
+  unless (doc/"span.latitude").nil?
     data.merge!({ 
       :type => 'location',
-      :lat => doc.at("//span[@class='latitude']"), 
-      :long => doc.at("//span[@class='longitude']"), 
+      :lat  => (doc/"span.latitude").first.inner_html, 
+      :long => (doc/"span.longitude").first.inner_html
     })
-  elseif doc.at("//span[@class='bday']")
-  data.merge!({ 
-      :type => 'person',
-      :bday => doc.at("//span[@class='bday']")
-    })
+  else
+    if (doc/"span.bday")
+      data.merge!({ 
+        :type => 'person',
+        :bday => (doc/"span.bday").first.inner_html
+      })
+    end
   end
-rescue
-  nil
+  
+  data
+# rescue
+#   nil
 end
