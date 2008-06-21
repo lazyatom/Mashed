@@ -1,0 +1,55 @@
+<html>
+
+<script>
+
+var currentMovie = "movie1";
+
+function swapMovies() {
+  if (currentMovie == "movie1") {
+    document.location = "/flash_swap_test.html#movie2";
+    currentMovie = "movie2";
+  } else {
+    document.location = "/flash_swap_test.html#movie1";    
+    currentMovie = "movie1";
+  }
+  setTimeout(swapMovies, 2000);
+}
+
+function addMovie(id) {
+  var element = document.getElementById(id);
+  element.innerHTML = '<embed width="951" height="500" quality="high" name="PluginObject_plugin_gbL4xY949Bc0765916b4" id="PluginObject_plugin_gbL4xY949Bc0765916b4" src="/preview.swf" type="application/x-shockwave-flash"/>';
+}
+
+window.onload = function() {
+  addMovie("movie2");
+  setTimeout(swapMovies, 10000);
+}
+
+</script>
+
+<style>
+  .movie {
+    margin-bottom: 30em;
+  }
+
+</style>
+
+<body>
+
+<div id="movie1" class="movie">
+  <embed width="951" height="500" 
+  quality="high" 
+  name="PluginObject_plugin_gbL4xY949Bc0765916b4" 
+  id="PluginObject_plugin_gbL4xY949Bc0765916b4" 
+  src="/preview.swf" 
+  type="application/x-shockwave-flash"/>
+</div>
+
+
+
+<div id="movie2" class="movie">
+  
+</div>
+
+</body>
+</html>
