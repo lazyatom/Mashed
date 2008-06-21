@@ -10,9 +10,16 @@ class Well
       puts "discarding: #{phrase.inspect}"
     else
       words = words_from_phrase(phrase)
+      filtered_words = without_stop_words(words)
+      proper_nouns = proper_nouns(filtered_words)
       
-      @buckets[timestamp] += proper_nouns(without_stop_words(words))
-      
+      if proper_nouns.any?
+        @buckets[timestamp] += proper_nouns
+      elsif @buckets[timestamp].empty?
+        best_word = best_word_in(filtered_words)
+        @buckets[timestamp] << best_word if best_word
+      end
+            
       puts "[#{timestamp}] storing: #{phrase.inspect}"
       @last_sentence = phrase
     end
