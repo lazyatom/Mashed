@@ -11,7 +11,14 @@ class Well
     else
       words = words_from_phrase(phrase)
       
-      @buckets[timestamp] += proper_nouns_in(without_stop_words(words))
+      filtered_words = without_stop_words(words)
+      proper_nouns = proper_nouns_in(filtered_words)
+      
+      if proper_nouns.any?
+        @buckets[timestamp] += proper_nouns
+      else
+        @buckets[timestamp] += best_word_in(filtered_words)
+      end
       
       puts "[#{timestamp}] storing: #{phrase.inspect}"
       @last_sentence = phrase
