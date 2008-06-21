@@ -24,7 +24,12 @@
     } else {
       var element = document.getElementById("movie1");
     }
-    element.innerHTML = '<h1>' + element.id + '</h1><embed width="951" height="500" quality="high" name="PluginObject_plugin_gbL4xY949Bc0765916b4" id="PluginObject_plugin_gbL4xY949Bc0765916b4" src="/preview.swf" type="application/x-shockwave-flash"/>';
+    var embed_tag = '<h1>' + element.id + '</h1>';
+    embed_tag += '<embed width="951" height="500" quality="high"';
+    embed_tag += ' name="PluginObject_plugin_gbL4xY949Bc0765916b4"';
+    embed_tag += ' id="PluginObject_plugin_gbL4xY949Bc0765916b4"';
+    embed_tag += ' src="/preview.swf" type="application/x-shockwave-flash"/>';
+    element.innerHTML = embed_tag;
   }
 
   window.onload = function() {
