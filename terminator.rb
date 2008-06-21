@@ -11,7 +11,7 @@ class Well
     else
       words = words_from_phrase(phrase)
       
-      @buckets[timestamp] += without_stop_words(words)
+      @buckets[timestamp] += proper_nouns_in(without_stop_words(words))
       
       puts "[#{timestamp}] storing: #{phrase.inspect}"
       @last_sentence = phrase
@@ -41,7 +41,7 @@ class Well
   def proper_nouns_in(words)
     proper_nouns = []
     words.grep(/[A-Z][a-z]/).each do |pn| 
-      proper_nouns << (words.index(pn) == 0 || words[words.index(pn)-1].gsub(/\./) ? pn : nil )
+      proper_nouns << (words.index(pn) == 0 || /\./.match(words[words.index(pn)-1]) ? pn : nil )
     end
   end
   
