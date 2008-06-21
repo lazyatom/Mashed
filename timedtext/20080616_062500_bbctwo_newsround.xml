@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/2006/10/ttaf1" xmlns:ttp="http://www.w3.org/2006/10/ttaf1#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/2006/10/ttaf1#style" xml:lang="en" xmlns:ttm="http://www.w3.org/2006/10/ttaf1#metadata">
+<head>
+<styling>
+  <style id="s0" style="s0"/>
+</styling>
+</head><body tts:textAlign="center" style="s0">
+<div>
+<p begin = "00:00:05.269" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="left"> Hello. <br/></span></p>
+<p begin = "00:00:06.669" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center">This </span><br/></p>
+<p begin = "00:00:06.789" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center">is </span></p>
+<p begin = "00:00:06.989" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center">is Newsround. </span></p>
+<p begin = "00:00:08.543" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center">is Newsround.  The </span></p>
+<p begin = "00:00:08.783" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Hello. This is Newsround. The </span><br/></p>
+<p begin = "00:00:08.783" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Hello. This is Newsround. The <br/> President </span></p>
+<p begin = "00:00:09.023" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Hello. This is Newsround. The <br/> President of </span></p>
+<p begin = "00:00:09.863" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Hello. This is Newsround. The <br/> President of America </span></p>
+<p begin = "00:00:10.063" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Hello. This is Newsround. The <br/> President of America is </span></p>
+<p begin = "00:00:10.303" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Hello. This is Newsround. The <br/> President of America is meeting </span></p>
+<p begin = "00:00:10.423" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Hello. This is Newsround. The <br/> President of America is meeting our </span></p>
+<p begin = "00:00:10.663" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> President of America is meeting our </span><br/></p>
+<p begin = "00:00:10.663" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> President of America is meeting our <br/> Prime </span></p>
+<p begin = "00:00:10.903" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center">Minister </span></p>
+<p begin = "00:00:11.103" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center">Miniat </span></p>
+<p begin = "00:00:11.223" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center">Miniat his </span></p>
+<p begin = "00:00:12.303" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center">Miniat his home </span></p>
+<p begin = "00:00:12.543" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center">Miniat his home in </span></p>
+<p begin = "00:00:12.743" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Prime Minister at his home in </span><br/></p>
+<p begin = "00:00:12.743" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Prime Minister at his home in <br/> Downing </span></p>
+<p begin = "00:00:12.983" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Prime Minister at his home Street </span></p>
+<p begin = "00:00:13.103" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Prime Minister at his home Strethis </span></p>
+<p begin = "00:00:13.343" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Prime Minister at his home Strethismorning. </span></p>
+<p begin = "00:00:13.663" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Prime Minister at his home Strethismorn George </span></p>
+<p begin = "00:00:14.743" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Downing Street this morning. George </span><br/></p>
+<p begin = "00:00:14.743" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Downing Street this morning. George <br/> Bush </span></p>
+<p begin = "00:00:14.863" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Downing Street this morning. George <br/> Bush is </span></p>
+<p begin = "00:00:15.103" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Downing Street this morning. George <br/> Bush is visiting </span></p>
+<p begin = "00:00:15.303" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Downing Street this morning. George <br/> Bush is visiting Britain </span></p>
+<p begin = "00:00:15.543" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Downing Street this morning. George <br/> Bush is visiting Britas </span></p>
+<p begin = "00:00:15.903" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Downing Street this morning. George <br/> Bush is visiting Britas part </span></p>
+<p begin = "00:00:16.143" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Downing Street this morning. George <br/> Bush is visiting Britas part of </span></p>
+<p begin = "00:00:16.343" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Bush is visiting Britain as part of </span><br/></p>
+<p begin = "00:00:16.343" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Bush is visiting Britain as part of <br/> his </span></p>
+<p begin = "00:00:16.463" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Bush is visiting Britain as part of <br/> his last </span></p>
+<p begin = "00:00:16.703" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Bush is visiting Britain as part of <br/> his last tour </span></p>
+<p begin = "00:00:16.943" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Bush is visiting Britain as part of <br/> his last tour of </span></p>
+<p begin = "00:00:18.143" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Bush is visiting Britain as part of <br/> his last tour of Europe </span></p>
+<p begin = "00:00:18.343" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Bush is visiting Britain as part of <br/> his last tour of Europe before </span></p>
+<p begin = "00:00:18.583" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Bush is visiting Britain as part of <br/> his last tour of Europe before he </span></p>
+<p begin = "00:00:18.663" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> his last tour of Europe before he </span><br/></p>
+<p begin = "00:00:18.663" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> his last tour of Europe before he <br/> steps </span></p>
+<p begin = "00:00:19.063" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> his last tour of Europe before he <br/> steps down </span></p>
+<p begin = "00:00:19.263" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> his last tour of Europe before he <br/> steps down as </span></p>
+<p begin = "00:00:19.503" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> his last tour of Europe before he <br/> steps down as President. </span></p>
+<p begin = "00:00:20.303" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> his last tour of Europe before he <br/> steps down as President.  Yesterday </span></p>
+<p begin = "00:00:20.663" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> steps down as President. Yesterday </span><br/></p>
+<p begin = "00:00:20.663" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> steps down as President. Yesterday <br/> he </span></p>
+<p begin = "00:00:20.903" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> steps down as President. Yesterday <br/> he met </span></p>
+<p begin = "00:00:21.143" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> steps down as President. Yesterday <br/> he met the </span></p>
+<p begin = "00:00:21.263" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> steps down as President. Yesterday <br/> he met the Queen </span></p>
+<p begin = "00:00:21.503" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> steps down as President. Yesterday <br/> he met the Queen for </span></p>
+<p begin = "00:00:21.743" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> steps down as President. Yesterday <br/> he met the Queen for tea. </span></p>
+<p begin = "00:00:23.143" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> he met the Queen for tea. </span><br/></p>
+<p begin = "00:00:23.143" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> he met the Queen for tea. <br/> It </span></p>
+<p begin = "00:00:23.263" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> he met the Queen for tea. <br/> It was </span></p>
+<p begin = "00:00:23.503" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> he met the Queen for tea. <br/> It was a </span></p>
+<p begin = "00:00:23.703" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> he met the Queen for tea. <br/> It was a dramatic </span></p>
+<p begin = "00:00:24.783" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> he met the Queen for tea. <br/> It was a dramatic night </span></p>
+<p begin = "00:00:25.023" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> he met the Queen for tea. <br/> It was a dramatic night at </span></p>
+<p begin = "00:00:25.263" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> he met the Queen for tea. <br/> It was a dramatic night at the </span></p>
+<p begin = "00:00:25.463" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It was a dramatic night at the </span><br/></p>
+<p begin = "00:00:25.463" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It was a dramatic night at the <br/> Euros </span></p>
+<p begin = "00:00:25.583" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It was a dramatic night at the <br/> Euros last </span></p>
+<p begin = "00:00:25.823" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It was a dramatic night at the <br/> Euros last night. </span></p>
+<p begin = "00:00:26.543" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It was a dramatic night at the <br/> Euros last night.  Two </span></p>
+<p begin = "00:00:27.143" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It was a dramatic night at the <br/> Euros last night.  Two late </span></p>
+<p begin = "00:00:27.343" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It was a dramatic night at the <br/> Euros last night.  Two late goals </span></p>
+<p begin = "00:00:28.183" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Euros last night. Two late goals </span><br/></p>
+<p begin = "00:00:28.183" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Euros last night. Two late goals <br/> saw </span></p>
+<p begin = "00:00:28.783" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Euros last night. Two late goals <br/> saw Turkey </span></p>
+<p begin = "00:00:29.383" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Euros last night. Two late goals <br/> saw Turkey beat </span></p>
+<p begin = "00:00:29.503" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Euros last night. Two late goals <br/> saw Turkey beat the </span></p>
+<p begin = "00:00:29.703" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Euros last night. Two late goals <br/> saw Turkey beat the Czech </span></p>
+<p begin = "00:00:29.943" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Euros last night. Two late goals <br/> saw Turkey beat the Czech Republic </span></p>
+<p begin = "00:00:30.143" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> saw Turkey beat the Czech Republic </span><br/></p>
+<p begin = "00:00:30.143" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> saw Turkey beat the Czech Republic <br/> 3-2. </span></p>
+<p begin = "00:00:31.023" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> saw Turkey beat the Czech Republic <br/> 3-2. It </span></p>
+<p begin = "00:00:31.223" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> saw Turkey beat the Czech Republic <br/> 3-2. It was </span></p>
+<p begin = "00:00:31.463" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> saw Turkey beat the Czech Republic <br/> 3-2. It was not </span></p>
+<p begin = "00:00:31.943" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> saw Turkey beat the Czech Republic <br/> 3-2. It was not so </span></p>
+<p begin = "00:00:32.383" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> saw Turkey beat the Czech Republic <br/> 3-2. It was not so great </span></p>
+<p begin = "00:00:32.623" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> saw Turkey beat the Czech Republic <br/> 3-2. It was not so great for </span></p>
+<p begin = "00:00:32.863" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> 3-2. It was not so great for </span><br/></p>
+<p begin = "00:00:32.863" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> 3-2. It was not so great for <br/> Helen's </span></p>
+<p begin = "00:00:33.703" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> 3-2. It was not so great for <br/> Helen's adopted </span></p>
+<p begin = "00:00:33.903" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> 3-2. It was not so great for <br/> Helen's adopted team </span></p>
+<p begin = "00:00:38.473" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Helen's adopted team Portugal. </span><br/></p>
+<p begin = "00:00:38.473" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Helen's adopted team Portugal. <br/> Portugal </span></p>
+<p begin = "00:00:40.033" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Helen's adopted team Portugal. <br/> Portugal qualified </span></p>
+<p begin = "00:00:40.273" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Helen's adopted team Portugal. <br/> Portugal qualified for </span></p>
+<p begin = "00:00:40.513" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Helen's adopted team Portugal. <br/> Portugal qualified for the </span></p>
+<p begin = "00:00:40.713" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Helen's adopted team Portugal. <br/> Portugal qualified for the quarter- </span></p>
+<p begin = "00:00:41.313" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Portugal qualified for the quarter- </span><br/></p>
+<p begin = "00:00:41.313" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Portugal qualified for the quarter- <br/> finals </span></p>
+<p begin = "00:00:41.433" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Portugal qualified for the quarter- <br/> finals of </span></p>
+<p begin = "00:00:41.673" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Portugal qualified for the quarter- <br/> finals of Euro </span></p>
+<p begin = "00:00:42.113" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Portugal qualified for the quarter- <br/> finals of Euro 2008 </span></p>
+<p begin = "00:00:42.233" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Portugal qualified for the quarter- <br/> finals of Euro 2008 after </span></p>
+<p begin = "00:00:42.833" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Portugal qualified for the quarter- <br/> finals of Euro 2008 after playing </span></p>
+<p begin = "00:00:43.553" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> finals of Euro 2008 after playing </span><br/></p>
+<p begin = "00:00:43.553" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> finals of Euro 2008 after playing <br/> just </span></p>
+<p begin = "00:00:43.633" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> finals of Euro 2008 after playing <br/> just two </span></p>
+<p begin = "00:00:43.873" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> finals of Euro 2008 after playing <br/> just two games. </span></p>
+<p begin = "00:00:44.833" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> finals of Euro 2008 after playing <br/> just two games.  Although </span></p>
+<p begin = "00:00:45.073" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> finals of Euro 2008 after playing <br/> just two games.  Although the </span></p>
+<p begin = "00:00:45.873" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> finals of Euro 2008 after playing <br/> just two games.  Although the fans </span></p>
+<p begin = "00:00:45.993" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> just two games. Although the fans </span><br/></p>
+<p begin = "00:00:45.993" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> just two games. Although the fans <br/> are </span></p>
+<p begin = "00:00:46.233" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> just two games. Although the fans <br/> are feeling </span></p>
+<p begin = "00:00:46.833" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> just two games. Although the fans <br/> are feeling confident </span></p>
+<p begin = "00:00:47.033" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> just two games. Although the fans <br/> are feeling confident and </span></p>
+<p begin = "00:00:47.273" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> just two games. Although the fans <br/> are feeling confident and excited </span></p>
+<p begin = "00:00:47.393" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> are feeling confident and excited </span><br/></p>
+<p begin = "00:00:47.393" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> are feeling confident and excited <br/> going </span></p>
+<p begin = "00:00:47.873" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> are feeling confident and excited <br/> going into </span></p>
+<p begin = "00:00:48.073" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> are feeling confident and excited <br/> going into the </span></p>
+<p begin = "00:00:48.553" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> are feeling confident and excited <br/> going into the game </span></p>
+<p begin = "00:00:48.913" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> are feeling confident and excited <br/> going into the game against </span></p>
+<p begin = "00:00:49.273" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> going into the game against </span><br/></p>
+<p begin = "00:00:49.273" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> going into the game against <br/> Switzerland, </span></p>
+<p begin = "00:00:50.953" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> going into the game against <br/> Switzerland, and </span></p>
+<p begin = "00:00:51.153" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> going into the game against <br/> Switzerland, and fortunately </span></p>
+<p begin = "00:00:51.393" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> going into the game against <br/> Switzerland, and fortunately it </span></p>
+<p begin = "00:00:51.633" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> going into the game against <br/> Switzerland, and fortunately it was </span></p>
+<p begin = "00:00:51.713" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland, and fortunately it was </span><br/></p>
+<p begin = "00:00:51.713" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland, and fortunately it was <br/> not </span></p>
+<p begin = "00:00:51.953" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland, and fortunately it was <br/> not to </span></p>
+<p begin = "00:00:52.193" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland, and fortunately it was <br/> not to be. </span></p>
+<p begin = "00:00:53.033" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland, and fortunately it was <br/> not to be.  They </span></p>
+<p begin = "00:00:53.513" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland, and fortunately it was <br/> not to be.  They lost </span></p>
+<p begin = "00:00:53.713" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland, and fortunately it was <br/> not to be.  They lost 2-0. </span></p>
+<p begin = "00:00:55.153" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> not to be. They lost 2-0. </span><br/></p>
+<p begin = "00:00:55.153" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> not to be. They lost 2-0. <br/> Switzerland </span></p>
+<p begin = "00:00:55.313" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> not to be. They lost 2-0. <br/> Switzerland have </span></p>
+<p begin = "00:00:55.993" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> not to be. They lost 2-0. <br/> Switzerland have not </span></p>
+<p begin = "00:00:56.233" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> not to be. They lost 2-0. <br/> Switzerland have not won </span></p>
+<p begin = "00:00:56.313" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> not to be. They lost 2-0. <br/> Switzerland have not won a </span></p>
+<p begin = "00:00:56.553" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> not to be. They lost 2-0. <br/> Switzerland have not won a game </span></p>
+<p begin = "00:00:56.793" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland have not won a game </span><br/></p>
+<p begin = "00:00:56.793" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland have not won a game <br/> until </span></p>
+<p begin = "00:00:57.273" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland have not won a game <br/> until now </span></p>
+<p begin = "00:00:57.353" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland have not won a game <br/> until now so </span></p>
+<p begin = "00:00:57.593" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland have not won a game <br/> until now so it </span></p>
+<p begin = "00:00:57.833" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland have not won a game <br/> until now so it was </span></p>
+<p begin = "00:00:58.073" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland have not won a game <br/> until now so it was not </span></p>
+<p begin = "00:00:58.313" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland have not won a game <br/> until now so it was not great </span></p>
+<p begin = "00:00:58.513" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Switzerland have not won a game <br/> until now so it was not great for </span></p>
+<p begin = "00:00:58.753" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> until now so it was not great for </span><br/></p>
+<p begin = "00:00:58.753" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> until now so it was not great for <br/> Portugal. </span></p>
+<p begin = "00:00:59.593" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> until now so it was not great for <br/> Portugal. They </span></p>
+<p begin = "00:00:59.793" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> until now so it was not great for <br/> Portugal. They did </span></p>
+<p begin = "00:00:59.913" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> until now so it was not great for <br/> Portugal. They did not </span></p>
+<p begin = "00:01:00.153" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> until now so it was not great for <br/> Portugal. They did not do </span></p>
+<p begin = "00:01:00.513" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> until now so it was not great for <br/> Portugal. They did not do good </span></p>
+<p begin = "00:01:00.713" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Portugal.</span><br/></p>
+<p begin = "00:01:00.713" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> Portugal.<br/> They did not do good </span></p>
+<p begin = "00:01:00.713" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> today </span><br/></p>
+<p begin = "00:01:00.833" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> today <br/>because </span></p>
+<p begin = "00:01:01.073" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> today <br/>because they </span></p>
+<p begin = "00:01:01.673" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> today <br/>because they knew </span></p>
+<p begin = "00:01:01.913" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> today <br/>because they knew they </span></p>
+<p begin = "00:01:02.113" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> today <br/>because they knew they were </span></p>
+<p begin = "00:01:02.313" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> today because they knew they were </span><br/></p>
+<p begin = "00:01:02.313" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> today because they knew they were <br/> already </span></p>
+<p begin = "00:01:02.473" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> today because they knew they were <br/> already through. </span></p>
+<p begin = "00:01:03.073" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> today because they knew they were <br/> already through.  We </span></p>
+<p begin = "00:01:04.485" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> today because they knew they were <br/> already through.  We could </span></p>
+<p begin = "00:01:04.725" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> today because they knew they were <br/> already through.  We could have </span></p>
+<p begin = "00:01:04.845" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> today because they knew they were <br/> already through.  We could have won </span></p>
+<p begin = "00:01:05.045" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> already through.</span><br/></p>
+<p begin = "00:01:05.045" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> already through.<br/> We could have won </span></p>
+<p begin = "00:01:05.045" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> at </span><br/></p>
+<p begin = "00:01:05.765" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> at <br/>least </span></p>
+<p begin = "00:01:06.005" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> at <br/>least three-1, </span></p>
+<p begin = "00:01:06.245" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> at <br/>least three-1, 2-1. </span></p>
+<p begin = "00:01:07.561" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> at <br/>least three-1, 2-1.  Never </span></p>
+<p begin = "00:01:07.761" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> at <br/>least three-1, 2-1.  Never mind </span></p>
+<p begin = "00:01:08.361" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> at least three-1, 2-1.</span><br/></p>
+<p begin = "00:01:08.361" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> at least three-1, 2-1.<br/> Never mind </span></p>
+<p begin = "00:01:08.361" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> could </span><br/></p>
+<p begin = "00:01:08.601" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> could <br/>have, </span></p>
+<p begin = "00:01:09.321" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> could <br/>have, should </span></p>
+<p begin = "00:01:09.401" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> could <br/>have, should have! </span></p>
+<p begin = "00:01:10.361" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> could <br/>have, should have!  I </span></p>
+<p begin = "00:01:10.961" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> could <br/>have, should have!  I think </span></p>
+<p begin = "00:01:11.201" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> could <br/>have, should have!  I think we </span></p>
+<p begin = "00:01:11.441" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> could have, should have!</span><br/></p>
+<p begin = "00:01:11.441" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> could have, should have!<br/> I think we </span></p>
+<p begin = "00:01:11.441" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played </span><br/></p>
+<p begin = "00:01:11.881" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played <br/>quite </span></p>
+<p begin = "00:01:12.121" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played <br/>quite well. </span></p>
+<p begin = "00:01:12.441" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played <br/>quite well.  We </span></p>
+<p begin = "00:01:12.601" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played <br/>quite well.  We were </span></p>
+<p begin = "00:01:13.041" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played <br/>quite well.  We were not </span></p>
+<p begin = "00:01:13.281" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played <br/>quite well.  We were not very </span></p>
+<p begin = "00:01:13.881" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played quite well. We were not very </span><br/></p>
+<p begin = "00:01:13.881" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played quite well. We were not very <br/> lucky. </span></p>
+<p begin = "00:01:15.432" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played quite well. We were not very <br/> lucky. We </span></p>
+<p begin = "00:01:15.512" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played quite well. We were not very <br/> lucky. We will </span></p>
+<p begin = "00:01:15.752" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played quite well. We were not very <br/> lucky. We will do </span></p>
+<p begin = "00:01:16.232" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played quite well. We were not very <br/> lucky. We will do good </span></p>
+<p begin = "00:01:16.472" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played quite well. We were not very <br/> lucky. We will do good in </span></p>
+<p begin = "00:01:16.672" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> played quite well. We were not very <br/> lucky. We will do good in the </span></p>
+<p begin = "00:01:16.912" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> lucky. We will do good in the </span><br/></p>
+<p begin = "00:01:16.912" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> lucky. We will do good in the <br/> knockout </span></p>
+<p begin = "00:01:17.392" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> lucky. We will do good in the <br/> knockout rounds </span></p>
+<p begin = "00:01:17.512" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> lucky. We will do good in the <br/> knockout rounds and </span></p>
+<p begin = "00:01:17.752" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> lucky. We will do good in the <br/> knockout rounds and go </span></p>
+<p begin = "00:01:18.312" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> lucky. We will do good in the <br/> knockout rounds and go through </span></p>
+<p begin = "00:01:18.552" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> lucky. We will do good in the <br/> knockout rounds and go through to </span></p>
+<p begin = "00:01:18.632" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> knockout rounds and go through to </span><br/></p>
+<p begin = "00:01:18.632" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> knockout rounds and go through to <br/> the </span></p>
+<p begin = "00:01:18.912" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> knockout rounds and go through to <br/> the final. </span></p>
+<p begin = "00:01:19.712" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> knockout rounds and go through to <br/> the final.  How </span></p>
+<p begin = "00:01:20.552" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> knockout rounds and go through to <br/> the final.  How will </span></p>
+<p begin = "00:01:20.672" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> knockout rounds and go through to <br/> the final.  How will they </span></p>
+<p begin = "00:01:21.392" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> knockout rounds and go through to <br/> the final.  How will they do </span></p>
+<p begin = "00:01:21.592" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> knockout rounds and go through to <br/> the final.  How will they do in </span></p>
+<p begin = "00:01:21.832" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> knockout rounds and go through to <br/> the final.  How will they do in the </span></p>
+<p begin = "00:01:21.952" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> the final.</span><br/></p>
+<p begin = "00:01:21.952" dur="00:00:05.00"><span tts:color="#00ffff" tts:textAlign="center"> the final.<br/> How will they do in the </span></p>
+<p begin = "00:01:21.952" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> quarter-finals? </span><br/></p>
+<p begin = "00:01:22.792" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> quarter-finals? <br/>I </span></p>
+<p begin = "00:01:22.992" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> quarter-finals? <br/>I think </span></p>
+<p begin = "00:01:23.112" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> quarter-finals? <br/>I think they </span></p>
+<p begin = "00:01:23.712" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> quarter-finals? <br/>I think they should </span></p>
+<p begin = "00:01:24.032" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> quarter-finals?</span><br/></p>
+<p begin = "00:01:24.032" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> quarter-finals?<br/> I think they should </span></p>
+<p begin = "00:01:24.032" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do </span><br/></p>
+<p begin = "00:01:24.272" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do <br/>better </span></p>
+<p begin = "00:01:24.512" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do <br/>better but </span></p>
+<p begin = "00:01:24.752" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do <br/>better but you </span></p>
+<p begin = "00:01:24.992" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do <br/>better but you never </span></p>
+<p begin = "00:01:25.232" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do <br/>better but you never know, </span></p>
+<p begin = "00:01:25.672" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do <br/>better but you never know, they </span></p>
+<p begin = "00:01:25.912" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do better but you never know, they </span><br/></p>
+<p begin = "00:01:25.912" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do better but you never know, they <br/> might </span></p>
+<p begin = "00:01:26.152" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do better but you never know, they <br/> might lose. </span></p>
+<p begin = "00:01:28.419" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do better but you never know, they <br/> might lose.  It </span></p>
+<p begin = "00:01:28.859" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do better but you never know, they <br/> might lose.  It sounds </span></p>
+<p begin = "00:01:29.099" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do better but you never know, they <br/> might lose.  It sounds like </span></p>
+<p begin = "00:01:29.339" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> do better but you never know, they <br/> might lose.  It sounds like these </span></p>
+<p begin = "00:01:29.579" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> might lose.</span><br/></p>
+<p begin = "00:01:29.579" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> might lose.<br/> It sounds like these </span></p>
+<p begin = "00:01:29.579" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fans </span><br/></p>
+<p begin = "00:01:30.019" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fans <br/>were </span></p>
+<p begin = "00:01:30.219" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fans <br/>were more </span></p>
+<p begin = "00:01:30.419" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fans <br/>were more bothered </span></p>
+<p begin = "00:01:31.939" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fans <br/>were more bothered by </span></p>
+<p begin = "00:01:32.139" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fans <br/>were more bothered by the </span></p>
+<p begin = "00:01:32.859" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fans were more bothered by the </span><br/></p>
+<p begin = "00:01:32.859" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fans were more bothered by the <br/> referee </span></p>
+<p begin = "00:01:33.579" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fans were more bothered by the <br/> referee than </span></p>
+<p begin = "00:01:33.699" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fans were more bothered by the <br/> referee than the </span></p>
+<p begin = "00:01:34.059" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fans were more bothered by the <br/> referee than the players </span></p>
+<p begin = "00:01:34.179" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fans were more bothered by the <br/> referee than the players and </span></p>
+<p begin = "00:01:34.379" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fans were more bothered by the <br/> referee than the players and their </span></p>
+<p begin = "00:01:34.619" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> referee than the players and their </span><br/></p>
+<p begin = "00:01:34.619" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> referee than the players and their <br/> performance. </span></p>
+<p begin = "00:01:35.819" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> referee than the players and their <br/> performance. They </span></p>
+<p begin = "00:01:36.059" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> referee than the players and their <br/> performance. They are </span></p>
+<p begin = "00:01:36.259" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> referee than the players and their <br/> performance. They are feeling </span></p>
+<p begin = "00:01:36.539" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> performance. They are feeling </span><br/></p>
+<p begin = "00:01:36.539" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> performance. They are feeling <br/> confident. </span></p>
+<p begin = "00:01:38.327" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> confident. </span><br/></p>
+<p begin = "00:01:38.327" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> confident. <br/> We </span></p>
+<p begin = "00:01:38.447" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> confident. <br/> We have </span></p>
+<p begin = "00:01:39.007" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> confident. <br/> We have all </span></p>
+<p begin = "00:01:39.967" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> confident. <br/> We have all heard </span></p>
+<p begin = "00:01:40.087" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> confident. <br/> We have all heard of </span></p>
+<p begin = "00:01:40.287" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> confident. <br/> We have all heard of guard </span></p>
+<p begin = "00:01:40.527" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> confident. <br/> We have all heard of guard dogs, </span></p>
+<p begin = "00:01:40.887" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> We have all heard of guard dogs, </span><br/></p>
+<p begin = "00:01:40.887" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> We have all heard of guard dogs, <br/> but </span></p>
+<p begin = "00:01:41.127" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> We have all heard of guard dogs, <br/> but what </span></p>
+<p begin = "00:01:42.087" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> We have all heard of guard dogs, <br/> but what about </span></p>
+<p begin = "00:01:42.207" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> We have all heard of guard dogs, <br/> but what about guard </span></p>
+<p begin = "00:01:42.527" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> We have all heard of guard dogs, <br/> but what about guard llamas? </span></p>
+<p begin = "00:01:43.487" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> We have all heard of guard dogs, <br/> but what about guard llamas?  They </span></p>
+<p begin = "00:01:43.727" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but what about guard llamas? They </span><br/></p>
+<p begin = "00:01:43.727" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but what about guard llamas? They <br/> do </span></p>
+<p begin = "00:01:43.847" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but what about guard llamas? They <br/> do exist. </span></p>
+<p begin = "00:01:45.519" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but what about guard llamas? They <br/> do exist.  One </span></p>
+<p begin = "00:01:45.719" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but what about guard llamas? They <br/> do exist.  One farmer </span></p>
+<p begin = "00:01:45.959" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but what about guard llamas? They <br/> do exist.  One farmer in </span></p>
+<p begin = "00:01:46.679" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but what about guard llamas? They <br/> do exist.  One farmer in Sussex </span></p>
+<p begin = "00:01:46.919" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but what about guard llamas? They <br/> do exist.  One farmer in Sussex in </span></p>
+<p begin = "00:01:47.119" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> do exist. One farmer in Sussex in </span><br/></p>
+<p begin = "00:01:47.119" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> do exist. One farmer in Sussex in <br/> South </span></p>
+<p begin = "00:01:47.359" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> do exist. One farmer in Sussex in <br/> South East </span></p>
+<p begin = "00:01:47.599" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> do exist. One farmer in Sussex in <br/> South East England </span></p>
+<p begin = "00:01:47.719" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> do exist. One farmer in Sussex in <br/> South East England is </span></p>
+<p begin = "00:01:48.519" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> do exist. One farmer in Sussex in <br/> South East England is using </span></p>
+<p begin = "00:01:48.759" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> do exist. One farmer in Sussex in <br/> South East England is using the </span></p>
+<p begin = "00:01:48.839" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> South East England is using the </span><br/></p>
+<p begin = "00:01:48.839" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> South East England is using the <br/> South </span></p>
+<p begin = "00:01:49.119" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> South East England is using the <br/> South American </span></p>
+<p begin = "00:01:49.599" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> South East England is using the <br/> South American animals </span></p>
+<p begin = "00:01:49.719" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> South East England is using the <br/> South American animals to </span></p>
+<p begin = "00:01:49.919" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> South East England is using the <br/> South American animals to keep </span></p>
+<p begin = "00:01:50.479" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> South American animals to keep </span><br/></p>
+<p begin = "00:01:50.479" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> South American animals to keep <br/> boxes </span></p>
+<p begin = "00:01:50.759" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> South American animals to keep <br/> boxes away </span></p>
+<p begin = "00:01:50.839" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> South American animals to keep <br/> boxes away from </span></p>
+<p begin = "00:01:51.079" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> South American animals to keep <br/> boxes away from the </span></p>
+<p begin = "00:01:51.319" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> South American animals to keep <br/> boxes away from the sheet. </span></p>
+<p begin = "00:01:53.670" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> boxes away from the sheet. </span><br/></p>
+<p begin = "00:01:53.670" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> boxes away from the sheet. <br/> It </span></p>
+<p begin = "00:01:53.910" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> boxes away from the sheet. <br/> It is </span></p>
+<p begin = "00:01:54.270" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> boxes away from the sheet. <br/> It is not </span></p>
+<p begin = "00:01:54.630" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> boxes away from the sheet. <br/> It is not easy </span></p>
+<p begin = "00:01:55.230" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> boxes away from the sheet. <br/> It is not easy being </span></p>
+<p begin = "00:01:55.310" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> boxes away from the sheet. <br/> It is not easy being issued. </span></p>
+<p begin = "00:01:56.270" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> boxes away from the sheet. <br/> It is not easy being issued.  You </span></p>
+<p begin = "00:01:56.750" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It is not easy being issued. You </span><br/></p>
+<p begin = "00:01:56.750" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It is not easy being issued. You <br/> have </span></p>
+<p begin = "00:01:56.870" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It is not easy being issued. You <br/> have to </span></p>
+<p begin = "00:01:57.110" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It is not easy being issued. You <br/> have to watch </span></p>
+<p begin = "00:01:57.310" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It is not easy being issued. You <br/> have to watch out </span></p>
+<p begin = "00:01:57.550" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It is not easy being issued. You <br/> have to watch out for </span></p>
+<p begin = "00:01:58.510" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It is not easy being issued. You <br/> have to watch out for foxes </span></p>
+<p begin = "00:01:58.750" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It is not easy being issued. You <br/> have to watch out for foxes on </span></p>
+<p begin = "00:01:58.990" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> It is not easy being issued. You <br/> have to watch out for foxes on the </span></p>
+<p begin = "00:01:59.190" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> have to watch out for foxes on the </span><br/></p>
+<p begin = "00:01:59.190" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> have to watch out for foxes on the <br/> prowl. </span></p>
+<p begin = "00:02:00.150" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> have to watch out for foxes on the <br/> prowl. Believe </span></p>
+<p begin = "00:02:00.390" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> have to watch out for foxes on the <br/> prowl. Believe it </span></p>
+<p begin = "00:02:00.630" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> have to watch out for foxes on the <br/> prowl. Believe it or </span></p>
+<p begin = "00:02:00.710" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> have to watch out for foxes on the <br/> prowl. Believe it or not </span></p>
+<p begin = "00:02:00.950" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> have to watch out for foxes on the <br/> prowl. Believe it or not these </span></p>
+<p begin = "00:02:01.190" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> prowl. Believe it or not these </span><br/></p>
+<p begin = "00:02:01.190" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> prowl. Believe it or not these <br/> sheep </span></p>
+<p begin = "00:02:01.390" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> prowl. Believe it or not these <br/> sheep have </span></p>
+<p begin = "00:02:01.870" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> prowl. Believe it or not these <br/> sheep have got </span></p>
+<p begin = "00:02:02.110" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> prowl. Believe it or not these <br/> sheep have got their </span></p>
+<p begin = "00:02:02.350" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> prowl. Believe it or not these <br/> sheep have got their own </span></p>
+<p begin = "00:02:03.030" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> prowl. Believe it or not these <br/> sheep have got their own personal </span></p>
+<p begin = "00:02:03.270" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> sheep have got their own personal </span><br/></p>
+<p begin = "00:02:03.270" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> sheep have got their own personal <br/> bodyguards. </span></p>
+<p begin = "00:02:04.350" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> sheep have got their own personal <br/> bodyguards. Meet </span></p>
+<p begin = "00:02:04.590" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> sheep have got their own personal <br/> bodyguards. Meet the </span></p>
+<p begin = "00:02:04.830" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> sheep have got their own personal <br/> bodyguards. Meet the large </span></p>
+<p begin = "00:02:05.030" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> sheep have got their own personal <br/> bodyguards. Meet the large and </span></p>
+<p begin = "00:02:05.510" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> bodyguards. Meet the large and </span><br/></p>
+<p begin = "00:02:05.510" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> bodyguards. Meet the large and <br/> fluffier </span></p>
+<p begin = "00:02:05.750" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> bodyguards. Meet the large and <br/> fluffier friends </span></p>
+<p begin = "00:02:06.110" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> bodyguards. Meet the large and <br/> fluffier friends looking </span></p>
+<p begin = "00:02:06.350" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> bodyguards. Meet the large and <br/> fluffier friends looking out </span></p>
+<p begin = "00:02:06.790" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> bodyguards. Meet the large and <br/> fluffier friends looking out for </span></p>
+<p begin = "00:02:07.030" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fluffier friends looking out for </span><br/></p>
+<p begin = "00:02:07.030" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fluffier friends looking out for <br/> them, </span></p>
+<p begin = "00:02:07.110" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fluffier friends looking out for <br/> them, the </span></p>
+<p begin = "00:02:08.190" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fluffier friends looking out for <br/> them, the guardian </span></p>
+<p begin = "00:02:08.310" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fluffier friends looking out for <br/> them, the guardian llamas. </span></p>
+<p begin = "00:02:09.270" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fluffier friends looking out for <br/> them, the guardian llamas.  I </span></p>
+<p begin = "00:02:09.510" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> fluffier friends looking out for <br/> them, the guardian llamas.  I read </span></p>
+<p begin = "00:02:09.590" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> them, the guardian llamas.</span><br/></p>
+<p begin = "00:02:09.590" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> them, the guardian llamas.<br/> I read </span></p>
+<p begin = "00:02:09.590" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> somewhere </span><br/></p>
+<p begin = "00:02:09.950" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> somewhere <br/>that </span></p>
+<p begin = "00:02:10.430" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> somewhere <br/>that llamas </span></p>
+<p begin = "00:02:10.670" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> somewhere <br/>that llamas might </span></p>
+<p begin = "00:02:10.870" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> somewhere <br/>that llamas might be </span></p>
+<p begin = "00:02:11.110" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> somewhere <br/>that llamas might be a </span></p>
+<p begin = "00:02:11.230" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> somewhere that llamas might be a </span><br/></p>
+<p begin = "00:02:11.230" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> somewhere that llamas might be a <br/> solution. </span></p>
+<p begin = "00:02:12.070" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> somewhere that llamas might be a <br/> solution. We </span></p>
+<p begin = "00:02:13.270" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> somewhere that llamas might be a <br/> solution. We bought </span></p>
+<p begin = "00:02:13.470" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> somewhere that llamas might be a <br/> solution. We bought two </span></p>
+<p begin = "00:02:13.710" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> somewhere that llamas might be a <br/> solution. We bought two last </span></p>
+<p begin = "00:02:13.830" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> somewhere that llamas might be a <br/> solution. We bought two last year </span></p>
+<p begin = "00:02:14.030" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> solution. We bought two last year </span><br/></p>
+<p begin = "00:02:14.030" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> solution. We bought two last year <br/> and </span></p>
+<p begin = "00:02:14.270" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> solution. We bought two last year <br/> and I </span></p>
+<p begin = "00:02:14.510" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> solution. We bought two last year <br/> and I am </span></p>
+<p begin = "00:02:14.750" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> solution. We bought two last year <br/> and I am delighted </span></p>
+<p begin = "00:02:14.870" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> solution. We bought two last year <br/> and I am delighted to </span></p>
+<p begin = "00:02:15.110" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> solution. We bought two last year <br/> and I am delighted to report </span></p>
+<p begin = "00:02:15.350" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> solution. We bought two last year <br/> and I am delighted to report they </span></p>
+<p begin = "00:02:15.550" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and I am delighted to report they </span><br/></p>
+<p begin = "00:02:15.550" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and I am delighted to report they <br/> have </span></p>
+<p begin = "00:02:15.670" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and I am delighted to report they <br/> have been </span></p>
+<p begin = "00:02:15.910" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and I am delighted to report they <br/> have been a</span></p>
+<p begin = "00:02:16.110" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and I am delighted to report they <br/> have been asuccess. </span></p>
+<p begin = "00:02:16.350" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and I am delighted to report they <br/> have been asuccess.  The </span></p>
+<p begin = "00:02:19.004" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and I am delighted to report they <br/> have been asuccess.  The sheep </span></p>
+<p begin = "00:02:19.244" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and I am delighted to report they <br/> have been asuccess.  The sheep look </span></p>
+<p begin = "00:02:19.444" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> have been a success.</span><br/></p>
+<p begin = "00:02:19.444" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> have been a success.<br/> The sheep look </span></p>
+<p begin = "00:02:19.444" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after </span><br/></p>
+<p begin = "00:02:19.684" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after <br/>the </span></p>
+<p begin = "00:02:19.804" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after <br/>the landscape </span></p>
+<p begin = "00:02:20.044" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after <br/>the landscape here </span></p>
+<p begin = "00:02:20.284" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after <br/>the landscape here but </span></p>
+<p begin = "00:02:20.484" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after <br/>the landscape here but last </span></p>
+<p begin = "00:02:21.324" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after the landscape here but last </span><br/></p>
+<p begin = "00:02:21.324" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after the landscape here but last <br/> year </span></p>
+<p begin = "00:02:21.564" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after the landscape here but last <br/> year 70 </span></p>
+<p begin = "00:02:21.804" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after the landscape here but last <br/> year 70 lambs </span></p>
+<p begin = "00:02:21.884" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after the landscape here but last <br/> year 70 lambs were </span></p>
+<p begin = "00:02:22.124" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after the landscape here but last <br/> year 70 lambs were taken </span></p>
+<p begin = "00:02:22.484" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after the landscape here but last <br/> year 70 lambs were taken by </span></p>
+<p begin = "00:02:22.724" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> after the landscape here but last <br/> year 70 lambs were taken by foxes. </span></p>
+<p begin = "00:02:23.644" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> year 70 lambs were taken by foxes. </span><br/></p>
+<p begin = "00:02:23.644" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> year 70 lambs were taken by foxes. <br/> They </span></p>
+<p begin = "00:02:23.884" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> year 70 lambs were taken by foxes. <br/> They are </span></p>
+<p begin = "00:02:24.004" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> year 70 lambs were taken by foxes. <br/> They are thinking </span></p>
+<p begin = "00:02:24.244" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> year 70 lambs were taken by foxes. <br/> They are thinking twice </span></p>
+<p begin = "00:02:25.084" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> year 70 lambs were taken by foxes. <br/> They are thinking twice about </span></p>
+<p begin = "00:02:25.284" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> They are thinking twice about </span><br/></p>
+<p begin = "00:02:25.284" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> They are thinking twice about <br/> messing </span></p>
+<p begin = "00:02:25.764" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> They are thinking twice about <br/> messing with </span></p>
+<p begin = "00:02:26.004" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> They are thinking twice about <br/> messing with the </span></p>
+<p begin = "00:02:26.604" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> They are thinking twice about <br/> messing with the llamas </span></p>
+<p begin = "00:02:26.804" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> They are thinking twice about <br/> messing with the llamas and </span></p>
+<p begin = "00:02:27.044" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> They are thinking twice about <br/> messing with the llamas and the </span></p>
+<p begin = "00:02:27.164" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> messing with the llamas and the </span><br/></p>
+<p begin = "00:02:27.164" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> messing with the llamas and the <br/> number </span></p>
+<p begin = "00:02:27.404" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> messing with the llamas and the <br/> number has </span></p>
+<p begin = "00:02:27.604" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> messing with the llamas and the <br/> number has halved. </span></p>
+<p begin = "00:02:28.684" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> messing with the llamas and the <br/> number has halved.  Llamas </span></p>
+<p begin = "00:02:28.924" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> messing with the llamas and the <br/> number has halved.  Llamas do </span></p>
+<p begin = "00:02:29.044" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> messing with the llamas and the <br/> number has halved.  Llamas do not </span></p>
+<p begin = "00:02:29.724" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> number has halved. Llamas do not </span><br/></p>
+<p begin = "00:02:29.724" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> number has halved. Llamas do not <br/> attack </span></p>
+<p begin = "00:02:29.964" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> number has halved. Llamas do not <br/> attack the </span></p>
+<p begin = "00:02:30.124" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> number has halved. Llamas do not <br/> attack the foxes. </span></p>
+<p begin = "00:02:30.684" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> number has halved. Llamas do not <br/> attack the foxes.  Their </span></p>
+<p begin = "00:02:31.164" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> number has halved. Llamas do not <br/> attack the foxes.  Their presence </span></p>
+<p begin = "00:02:31.364" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> number has halved. Llamas do not <br/> attack the foxes.  Their presence is </span></p>
+<p begin = "00:02:31.604" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> attack the foxes. Their presence is </span><br/></p>
+<p begin = "00:02:31.604" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> attack the foxes. Their presence is <br/> enough </span></p>
+<p begin = "00:02:31.724" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> attack the foxes. Their presence is <br/> enough to </span></p>
+<p begin = "00:02:32.044" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> attack the foxes. Their presence is <br/> enough to scare </span></p>
+<p begin = "00:02:32.324" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> attack the foxes. Their presence is <br/> enough to scare them </span></p>
+<p begin = "00:02:32.404" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> attack the foxes. Their presence is <br/> enough to scare them off. </span></p>
+<p begin = "00:02:33.844" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> attack the foxes. Their presence is <br/> enough to scare them off.  We </span></p>
+<p begin = "00:02:34.084" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> attack the foxes. Their presence is <br/> enough to scare them off.  We have </span></p>
+<p begin = "00:02:34.284" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> enough to scare them off.</span><br/></p>
+<p begin = "00:02:34.284" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> enough to scare them off.<br/> We have </span></p>
+<p begin = "00:02:34.284" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced </span><br/></p>
+<p begin = "00:02:36.307" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced <br/>it </span></p>
+<p begin = "00:02:36.547" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced <br/>it to </span></p>
+<p begin = "00:02:36.787" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced <br/>it to 25 </span></p>
+<p begin = "00:02:36.987" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced <br/>it to 25 lambs </span></p>
+<p begin = "00:02:37.107" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced <br/>it to 25 lambs being </span></p>
+<p begin = "00:02:37.347" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced <br/>it to 25 lambs being lost. </span></p>
+<p begin = "00:02:38.507" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced it to 25 lambs being lost. </span><br/></p>
+<p begin = "00:02:38.507" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced it to 25 lambs being lost. <br/> The </span></p>
+<p begin = "00:02:39.147" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced it to 25 lambs being lost. <br/> The llamas </span></p>
+<p begin = "00:02:39.347" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced it to 25 lambs being lost. <br/> The llamas Spratt </span></p>
+<p begin = "00:02:39.587" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced it to 25 lambs being lost. <br/> The llamas Spratt around </span></p>
+<p begin = "00:02:39.707" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced it to 25 lambs being lost. <br/> The llamas Spratt around the </span></p>
+<p begin = "00:02:39.947" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> reduced it to 25 lambs being lost. <br/> The llamas Spratt around the field </span></p>
+<p begin = "00:02:40.147" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> The llamas Spratt around the field </span><br/></p>
+<p begin = "00:02:40.147" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> The llamas Spratt around the field <br/> and </span></p>
+<p begin = "00:02:40.387" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> The llamas Spratt around the field <br/> and that </span></p>
+<p begin = "00:02:40.627" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> The llamas Spratt around the field <br/> and that seems </span></p>
+<p begin = "00:02:40.747" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> The llamas Spratt around the field <br/> and that seems to </span></p>
+<p begin = "00:02:41.427" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> The llamas Spratt around the field <br/> and that seems to scare </span></p>
+<p begin = "00:02:41.787" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> The llamas Spratt around the field <br/> and that seems to scare off </span></p>
+<p begin = "00:02:42.027" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> The llamas Spratt around the field <br/> and that seems to scare off the </span></p>
+<p begin = "00:02:42.227" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and that seems to scare off the </span><br/></p>
+<p begin = "00:02:42.227" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and that seems to scare off the <br/> foxes. </span></p>
+<p begin = "00:02:43.427" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and that seems to scare off the <br/> foxes. - </span></p>
+<p begin = "00:02:43.667" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and that seems to scare off the <br/> foxes. - struck. </span></p>
+<p begin = "00:02:45.374" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and that seems to scare off the <br/> foxes. - struck.  A </span></p>
+<p begin = "00:02:45.614" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and that seems to scare off the <br/> foxes. - struck.  A they </span></p>
+<p begin = "00:02:45.734" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and that seems to scare off the <br/> foxes. - struck.  A they might </span></p>
+<p begin = "00:02:45.934" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> and that seems to scare off the <br/> foxes. - struck.  A they might not </span></p>
+<p begin = "00:02:46.294" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> foxes. - struck. A they might not </span><br/></p>
+<p begin = "00:02:46.294" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> foxes. - struck. A they might not <br/> fit </span></p>
+<p begin = "00:02:46.534" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> foxes. - struck. A they might not <br/> fit in </span></p>
+<p begin = "00:02:47.494" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> foxes. - struck. A they might not <br/> fit in with </span></p>
+<p begin = "00:02:47.574" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> foxes. - struck. A they might not <br/> fit in with traditional </span></p>
+<p begin = "00:02:47.814" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> foxes. - struck. A they might not <br/> fit in with traditional countryside, </span></p>
+<p begin = "00:02:48.774" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> fit in with traditional countryside, </span><br/></p>
+<p begin = "00:02:48.774" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> fit in with traditional countryside, <br/> but </span></p>
+<p begin = "00:02:49.014" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> fit in with traditional countryside, <br/> but they </span></p>
+<p begin = "00:02:49.254" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> fit in with traditional countryside, <br/> but they are </span></p>
+<p begin = "00:02:49.454" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> fit in with traditional countryside, <br/> but they are earning </span></p>
+<p begin = "00:02:49.694" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> fit in with traditional countryside, <br/> but they are earning their </span></p>
+<p begin = "00:02:49.814" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> fit in with traditional countryside, <br/> but they are earning their keep. </span></p>
+<p begin = "00:02:51.134" dur="00:00:05.00"><span tts:color="#fefe00" tts:textAlign="center"> but they are earning their keep. </span><br/></p>
+<p begin = "00:02:51.134" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but they are earning their keep. <br/> We </span></p>
+<p begin = "00:02:51.334" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but they are earning their keep. <br/> We will </span></p>
+<p begin = "00:02:52.174" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but they are earning their keep. <br/> We will have </span></p>
+<p begin = "00:02:52.414" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but they are earning their keep. <br/> We will have more </span></p>
+<p begin = "00:02:52.654" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but they are earning their keep. <br/> We will have more top </span></p>
+<p begin = "00:02:53.694" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but they are earning their keep. <br/> We will have more top stories </span></p>
+<p begin = "00:02:53.934" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but they are earning their keep. <br/> We will have more top stories in </span></p>
+<p begin = "00:02:54.054" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> but they are earning their keep. <br/> We will have more top stories in an </span></p>
+<p begin = "00:02:54.294" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> We will have more top stories in an </span><br/></p>
+<p begin = "00:02:54.294" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> We will have more top stories in an <br/> hour. </span></p>
+<p begin = "00:03:58.664" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> We will have more top stories in an <br/> hour.  Three presenters.</span></p>
+<p begin = "00:03:58.664" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> 62 kids. </span><br/></p>
+<p begin = "00:03:58.664" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> 62 kids. <br/> 20 celebrities.</span></p>
+<p begin = "00:03:58.664" dur="00:00:05.00"><span tts:color="#ededed" tts:textAlign="center"> 19 dads. </span><br/></p>
+</div>
+</body></tt>
