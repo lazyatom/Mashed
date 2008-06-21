@@ -12,7 +12,7 @@ class Well
   end
   
   def add(timestamp, phrase)
-    if phrase = @last_sentence
+    if phrase != @last_sentence
       @buckets[timestamp] = @buckets[timestamp] + Phrase.new(phrase)
       @last_sentence = phrase
     end
@@ -23,10 +23,6 @@ class Well
       result = yield @buckets[timestamp]
       puts "#{timestamp}: #{result.inspect}"
     end
-  end
-  
-  def shouts(words)
-    words.grep(/[A-Z]{2,}/)
   end
 end
 

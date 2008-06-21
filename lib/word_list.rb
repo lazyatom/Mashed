@@ -2,6 +2,10 @@ class WordList < Array
   def best
     without_stop_words.proper_nouns.sort_by { |w| w.length }.last
   end
+
+  def shouts
+    WordList.new(*self.grep(/[A-Z]{2,}/))
+  end
   
   def proper_nouns
     proper_nouns = WordList.new
@@ -21,5 +25,6 @@ class WordList < Array
     good_words = WordList.new
     self.each { |w| good_words << w unless @stop_words.include?(w.downcase) }
     good_words
+    # WordList.new(*self.reject { |s| @stop_words.include?(w.downcase)})
   end
 end
