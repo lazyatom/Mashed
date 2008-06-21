@@ -12,10 +12,7 @@ class Well
   end
   
   def add(timestamp, phrase)
-    if phrase == @last_sentence
-      puts "discarding: #{phrase.inspect}"
-    else
-      puts "[#{timestamp}] storing: #{phrase.inspect}"
+    if phrase = @last_sentence
       @buckets[timestamp] = @buckets[timestamp] + Phrase.new(phrase)
       @last_sentence = phrase
     end
