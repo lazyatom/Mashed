@@ -10,21 +10,21 @@ class Well
       puts "discarding: #{phrase.inspect}"
     else
       words = phrase.gsub("<br/>", "").strip.gsub(/[^a-zA-Z0-9\s]/, " ").split(" ")
-      @bucket[timestamp] += words
+      @buckets[timestamp] += words
       puts "[#{timestamp}] storing: #{phrase.inspect}"
       @last_sentence = phrase
     end
   end
   
   def show
-    @bucket.each do |timestamp, words|
+    @buckets.each do |timestamp, words|
       puts "#{timestamp}: #{words.inspect}"
     end
   end
   
   def significant_words
-    @bucket.keys.sort.map do |timestamp|
-      best_word_in(@bucket[timestamp])
+    @buckets.keys.sort.map do |timestamp|
+      best_word_in(@buckets[timestamp])
     end
   end
   
