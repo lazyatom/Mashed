@@ -6,14 +6,20 @@ class Bucketeer
   end
   
   def add(timestamp, phrase)
-    words = phrase.gsub("<br/>", "").strip.gsub(/[^a-zA-Z0-9\s]/, " ").split(" ")
-    @bucket[timestamp] += words
-    @bucket[timestamp].uniq!
+    if phrase == @last_sentence
+      puts "discarding: #{phrase.inspect}"
+    else
+      words = phrase.gsub("<br/>", "").strip.gsub(/[^a-zA-Z0-9\s]/, " ").split(" ")
+      @bucket[timestamp] += words
+      puts "[#{timestamp}] storing: #{phrase.inspect}"
+      #@bucket[timestamp].uniq!
+      @last_sentence = phrase
+    end
   end
   
-  def print_significant
+  def show
     @bucket.each do |timestamp, words|
-      puts "#{timestamp}: #{best_word_in(words)}"
+      puts "#{timestamp}: #{words.inspect}"
     end
   end
   
@@ -31,9 +37,14 @@ end
 
 bucket = Bucketeer.new
 
-REGEXP = /begin = "(\d\d:\d\d:\d\d)\.\d\d\d".*">(.*)<\/span>/
+regexps = {
+  "1second" => /begin = "(\d\d:\d\d:\d\d)\.\d\d\d".*">([^<]*)/,
+  "10seconds" => /begin = "(\d\d:\d\d:\d)\d\.\d\d\d".*">([^<]*)/,
+  "1minute" => /begin = "(\d\d:\d\d):\d\d\.\d\d\d".*">([^<]*)/
+}
+
 File.readlines(ARGV[0]).each do |line|
-  matches = REGEXP.match(line)
+  matches = regexps[ARGV[1] || "10seconds"].match(line)
   if matches
     timestamp = matches[1]
     phrase = matches[2]
@@ -81,8 +92,4 @@ def show_flickr_images(word)
   `open #{filename}`
 end
 
-
-bucket.significant_words.each do |word|
-  puts word
-  sleep(1)
-end
+bucket.show
