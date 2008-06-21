@@ -11,5 +11,6 @@ class Phrase
   
   def +(other_phrase)
     @content += " " + other_phrase.content
+    self
   end
 end

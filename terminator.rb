@@ -21,15 +21,10 @@ class Well
     end
   end
   
-  def show
-    @buckets.each do |timestamp, words|
-      puts "#{timestamp}: #{words.best}"
-    end
-  end
-  
-  def significant_words
-    @buckets.keys.sort.map do |timestamp|
-      best_word_in(@buckets[timestamp])
+  def show(&block)
+    @buckets.keys.sort.each do |timestamp|
+      result = yield @buckets[timestamp]
+      puts "#{timestamp}: #{result.inspect}"
     end
   end
   
@@ -56,4 +51,4 @@ File.readlines(ARGV[0]).each do |line|
   end
 end
 
-well.show
+well.show { |p| p.words.without_stop_words }

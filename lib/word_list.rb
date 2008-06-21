@@ -5,8 +5,10 @@ class WordList < Array
   
   def proper_nouns
     proper_nouns = WordList.new
-    words.grep(/[A-Z][a-z]/).each do |pn| 
-      proper_nouns << (words.index(pn) == 0 || /\./.match(words[words.index(pn)-1]) ? pn : nil )
+    self.grep(/[A-Z][a-z]/).each do |pn| 
+      if self.index(pn) == 0 || /\./.match(self[self.index(pn)-1])
+        proper_nouns << pn
+      end
     end
     proper_nouns
   end
@@ -17,7 +19,7 @@ class WordList < Array
       @stop_words.map! { |w| w.chomp.strip }
     end
     good_words = WordList.new
-    words.each { |w| good_words << w if @stop_words.include?(w.downcase) }
+    self.each { |w| good_words << w unless @stop_words.include?(w.downcase) }
     good_words
   end
 end
