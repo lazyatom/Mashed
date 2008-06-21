@@ -16,8 +16,9 @@ class Well
       
       if proper_nouns.any?
         @buckets[timestamp] += proper_nouns
-      else
-        @buckets[timestamp] += best_word_in(filtered_words)
+      elsif @buckets[timestamp].empty?
+        best_word = best_word_in(filtered_words)
+        @buckets[timestamp] << best_word if best_word
       end
       
       puts "[#{timestamp}] storing: #{phrase.inspect}"
