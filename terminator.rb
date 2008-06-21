@@ -29,14 +29,14 @@ end
 
 well = Well.new
 
-regexps = {
+bucket_sizes = {
   "1second" => /begin = "(\d\d:\d\d:\d\d)\.\d\d\d".*">([^<]*)/,
   "10seconds" => /begin = "(\d\d:\d\d:\d)\d\.\d\d\d".*">([^<]*)/,
   "1minute" => /begin = "(\d\d:\d\d):\d\d\.\d\d\d".*">([^<]*)/
 }
 
 File.readlines(ARGV[0]).each do |line|
-  matches = regexps[ARGV[1] || "10seconds"].match(line)
+  matches = bucket_sizes[ARGV[1] || "10seconds"].match(line)
   if matches
     timestamp = matches[1]
     phrase = matches[2]

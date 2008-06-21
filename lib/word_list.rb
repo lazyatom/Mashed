@@ -22,9 +22,6 @@ class WordList < Array
       @stop_words = File.readlines('stop_words')
       @stop_words.map! { |w| w.chomp.strip }
     end
-    good_words = WordList.new
-    self.each { |w| good_words << w unless @stop_words.include?(w.downcase) }
-    good_words
-    # WordList.new(*self.reject { |s| @stop_words.include?(w.downcase)})
+    WordList.new(self.reject { |w| @stop_words.include?(w.downcase)})
   end
 end
