@@ -40,7 +40,9 @@ class Well
   
   def proper_nouns_in(words)
     proper_nouns = []
-    words.grep(/[A-Z][a-z]/).each do { |pn| proper_nouns << (words.index(pn) == 0 || words[words.index(pn)-1].gsub(/\./) ? pn : nil )}
+    words.grep(/[A-Z][a-z]/).each do |pn| 
+      proper_nouns << (words.index(pn) == 0 || words[words.index(pn)-1].gsub(/\./) ? pn : nil )
+    end
   end
   
   def shouts_in(words)
