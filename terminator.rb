@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-class Bucketeer
+class Well
   def initialize
-    @bucket = Hash.new { [] }
+    @buckets = Hash.new { [] }
   end
   
   def add(timestamp, phrase)
@@ -12,7 +12,6 @@ class Bucketeer
       words = phrase.gsub("<br/>", "").strip.gsub(/[^a-zA-Z0-9\s]/, " ").split(" ")
       @bucket[timestamp] += words
       puts "[#{timestamp}] storing: #{phrase.inspect}"
-      #@bucket[timestamp].uniq!
       @last_sentence = phrase
     end
   end
@@ -35,7 +34,7 @@ class Bucketeer
 end
 
 
-bucket = Bucketeer.new
+well = Well.new
 
 regexps = {
   "1second" => /begin = "(\d\d:\d\d:\d\d)\.\d\d\d".*">([^<]*)/,
@@ -48,7 +47,7 @@ File.readlines(ARGV[0]).each do |line|
   if matches
     timestamp = matches[1]
     phrase = matches[2]
-    bucket.add(timestamp, phrase)
+    well.add(timestamp, phrase)
   end
 end
 
@@ -92,4 +91,4 @@ def show_flickr_images(word)
   `open #{filename}`
 end
 
-bucket.show
+well.show
