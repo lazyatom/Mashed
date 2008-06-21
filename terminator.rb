@@ -1,38 +1,29 @@
 #!/usr/bin/env ruby
 
+$LOAD_PATH << File.join(File.dirname(__FILE__), *%w[lib])
+
+require 'phrase'
+require 'word_list'
+require 'flickr'
+
 class Well
   def initialize
-    @buckets = Hash.new { [] }
+    @buckets = Hash.new { Phrase.new }
   end
   
   def add(timestamp, phrase)
     if phrase == @last_sentence
       puts "discarding: #{phrase.inspect}"
     else
-      words = words_from_phrase(phrase)
-      
-      filtered_words = without_stop_words(words)
-      proper_nouns = proper_nouns_in(filtered_words)
-      
-      if proper_nouns.any?
-        @buckets[timestamp] += proper_nouns
-      elsif @buckets[timestamp].empty?
-        best_word = best_word_in(filtered_words)
-        @buckets[timestamp] << best_word if best_word
-      end
-      
       puts "[#{timestamp}] storing: #{phrase.inspect}"
+      @buckets[timestamp] = @buckets[timestamp] + Phrase.new(phrase)
       @last_sentence = phrase
     end
   end
   
-  def words_from_phrase(phrase)
-    phrase.gsub("<br/>", "").strip.gsub(/[^a-zA-Z0-9\s]/, " ").split(" ")
-  end
-  
   def show
     @buckets.each do |timestamp, words|
-      puts "#{timestamp}: #{words.inspect}"
+      puts "#{timestamp}: #{words.best}"
     end
   end
   
@@ -42,27 +33,8 @@ class Well
     end
   end
   
-  def best_word_in(words)
-    words.sort_by { |w| w.length }.last
-  end
-  
-  def proper_nouns_in(words)
-    proper_nouns = []
-    words.grep(/[A-Z][a-z]/).each do |pn| 
-      proper_nouns << (words.index(pn) == 0 || /\./.match(words[words.index(pn)-1]) ? pn : nil )
-    end
-  end
-  
   def shouts_in(words)
     words.grep(/[A-Z]{2,}/)
-  end
-
-  def without_stop_words(words)
-    unless @stop_words 
-      @stop_words = File.readlines('stop_words')
-      @stop_words.map! { |w| w.chomp.strip }
-    end
-    words.reject { |w| @stop_words.include?(w.downcase) }
   end
 end
 
@@ -82,46 +54,6 @@ File.readlines(ARGV[0]).each do |line|
     phrase = matches[2]
     well.add(timestamp, phrase)
   end
-end
-
-require 'rubygems'
-require 'hpricot'
-require 'open-uri'
-
-def flickr_urls_for(word)
-  doc = Hpricot(open("http://www.flickr.com/search/?q=#{word}"))
-  (doc/"img.pc_img")[0..2].map { |element| element["src"] }
-rescue
-  nil
-end
-
-def show_flickr_images(word)
-  image1, image2, image3 = flickr_urls_for(word)
-
-  if image1
-    html = <<-HTML
-    <html>
-    <body>
-      <h1>#{word}</h1>
-      <img src="#{image1}">
-      <img src="#{image2}">
-      <img src="#{image3}">
-    </body>
-    </html>
-    HTML
-  else
-    html = <<-HTML
-    <html>
-    <body>
-      <h1>#{word}</h1>
-      No images :(
-    </body>
-    </html>
-    HTML
-  end
-  filename = "images.html" 
-  File.open(filename, "w") { |f| f.write html }
-  `open #{filename}`
 end
 
 well.show
