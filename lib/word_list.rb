@@ -9,8 +9,9 @@ class WordList < Array
   
   def proper_nouns
     proper_nouns = WordList.new
-    self.grep(/[A-Z][a-z]/).each do |pn| 
-      if self.index(pn) == 0 || /\./.match(self[self.index(pn)-1])
+    self.grep(/[A-Z][a-z]/).each do |pn|
+      index = self.index(pn)
+      unless index == 0 || /\./.match(self[index-1])
         proper_nouns << pn
       end
     end
