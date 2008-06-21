@@ -9,11 +9,17 @@ class Well
     if phrase == @last_sentence
       puts "discarding: #{phrase.inspect}"
     else
-      words = phrase.gsub("<br/>", "").strip.gsub(/[^a-zA-Z0-9\s]/, " ").split(" ")
-      @buckets[timestamp] += words
+      words = words_from_phrase(phrase)
+      
+      @buckets[timestamp] += without_stop_words(words)
+      
       puts "[#{timestamp}] storing: #{phrase.inspect}"
       @last_sentence = phrase
     end
+  end
+  
+  def words_from_phrase(phrase)
+    phrase.gsub("<br/>", "").strip.gsub(/[^a-zA-Z0-9\s]/, " ").split(" ")
   end
   
   def show
@@ -30,6 +36,14 @@ class Well
   
   def best_word_in(words)
     words.sort_by { |w| w.length }.last
+  end
+  
+  def without_stop_words(words)
+    unless @stop_words 
+      @stop_words = File.readlines('stop_words')
+      @stop_words.map! { |w| w.chomp.strip }
+    end
+    words.reject { |w| @stop_words.include?(w.downcase) }
   end
 end
 
