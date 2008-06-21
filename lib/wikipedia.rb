@@ -1,3 +1,7 @@
+require 'rubygems'
+require 'hpricot'
+require 'open-uri'
+
 def wikipedia_data_for(word)
   doc = Hpricot(open("http://en.wikipedia.org/wiki/Special:Search?search=#{word}&fulltext=Search"))
   data = { :description => doc.at("//div[@class='bodyContent]/p") }
