@@ -44,7 +44,7 @@ class Well
   end
   
   def shouts_in(words)
-    words.grep(/[A-Z]/{2,20})
+    words.grep(/[A-Z]{2,}/)
   end
 
   def without_stop_words(words)
