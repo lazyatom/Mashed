@@ -1,10 +1,11 @@
 RUNNING
 =======
 
+$ [sudo] gem install sinatra
 $ ruby dylan_words.rb <filename> serve &
 $ serve
 
-Then login to BBC Redux
+Then login to BBC Redux, so that we can access their content
 
 And go to http://localhost:2000/
 
