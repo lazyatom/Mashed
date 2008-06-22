@@ -1,7 +1,7 @@
 RUNNING
 =======
 
-$ ruby dylan_words.rb &
+$ ruby dylan_words.rb <filename> serve &
 $ serve
 
 Then login to BBC Redux
