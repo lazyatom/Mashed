@@ -106,7 +106,7 @@ function addMovieToInactiveDiv() {
 
   console.log("queueing up words: " + messageStr);
 
-  embedTag += '<embed width="700" height="500" quality="high"';
+  embedTag += '<embed width="550" height="400" quality="high"';
   embedTag += ' name="PluginObject_plugin_gbL4xY949Bc0765916b4"';
   embedTag += ' id="PluginObject_plugin_gbL4xY949Bc0765916b4"';
   embedTag += ' flashvars="messages=' + messageStr + '"';
