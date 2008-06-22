@@ -1,0 +1,17 @@
+RUNNING
+=======
+
+$ ruby dylan_words.rb &
+$ serve
+
+Then login to BBC Redux
+
+And go to http://localhost:2000/
+
+
+
+TODO
+====
+
+- Load live subtitles based on link in BBC Redux
+- Integrate flickr, wikipedia, etc into display
