@@ -17,12 +17,13 @@ class Subtitles
   end
   
   def initialize
-    @buckets = Hash.new { Phrase.new }
+    @buckets = Hash.new #{ Phrase.new }
   end
   
   def add(timestamp, phrase)
     if phrase != @last_sentence
-      @buckets[timestamp] = @buckets[timestamp] + Phrase.new(phrase)
+      @buckets[timestamp] ||= Phrase.new
+      @buckets[timestamp] += phrase
       @last_sentence = phrase
     end
   end
@@ -30,13 +31,13 @@ class Subtitles
   def show(&block)
     @buckets.keys.sort.each do |timestamp|
       result = yield @buckets[timestamp]
-      puts "#{timestamp}: #{result.inspect}"
     end
   end
   
   def at_time(time, window)
     gathered_phrase = (time..(time + window)).inject(Phrase.new) do |phrase, timestamp|
       phrase += @buckets[timestamp] if @buckets[timestamp]
+      phrase
     end
     yield gathered_phrase if block_given?
     gathered_phrase

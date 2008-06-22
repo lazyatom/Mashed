@@ -1,8 +1,8 @@
 class WordList < Array
   def best
-    nouns = proper_nouns
-    return nouns.sort_by { |w| w.length }.last if nouns.any?
     good_words = without_stop_words
+    nouns = good_words.proper_nouns
+    return nouns.sort_by { |w| w.length }.last if nouns.any?
     return good_words.sort_by { |w| w.length }.last if good_words.any?
     sort_by { |w| w.length }.last
   end
