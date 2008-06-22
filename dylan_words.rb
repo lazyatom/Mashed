@@ -1,14 +1,7 @@
 require 'terminator'
+require 'sinatra'
 
 subtitles = Subtitles.read(ARGV[0])
-
-# subtitles.show { |p| p.words }
-# 
-# 1.step(50, 2) do |time|
-#   puts "#{time}: #{subtitles.at_time(time, 2) { |p| p.words.best }}"
-# end
-# 
-# 
 
 # Word Timings
 # 
@@ -22,11 +15,6 @@ subtitles = Subtitles.read(ARGV[0])
 # 8: 21.4
 # 9: ?
 
-# 
-# first word = programme name
-# next word, from 11.2 seconds in
-# then 12.5
-# 
 START = 84
 
 INTERVALS = [
@@ -50,4 +38,9 @@ def in_sequence(subtitles, &block)
   end
 end
 
-in_sequence(subtitles) { |phrase| puts phrase.words.best }
+words = []
+in_sequence(subtitles) { |phrase| words << (phrase.words.best || "").upcase }
+
+get "/words.js" do
+  "var messages = #{words.inspect};"
+end
