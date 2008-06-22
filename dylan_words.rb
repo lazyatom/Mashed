@@ -26,6 +26,8 @@ INTERVALS = [
   16,
 ]
 
+INTERVALS.map! { |i| i + 1 }
+
 def in_sequence(words, subtitles, &block)
   now = START
   current_interval = 0
