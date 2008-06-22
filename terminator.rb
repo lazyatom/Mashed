@@ -6,11 +6,11 @@ require 'phrase'
 require 'word_list'
 require 'flickr'
 require 'subtitles'
-
-subtitles = Subtitles.read(ARGV[0])
-
-subtitles.show { |p| p.words }
-
-1.step(50, 2) do |time|
-  puts "#{time}: #{subtitles.at_time(time, 2) { |p| p.words.best }}"
-end
+# 
+# subtitles = Subtitles.read(ARGV[0])
+# 
+# subtitles.show { |p| p.words }
+# 
+# 1.step(50, 2) do |time|
+#   puts "#{time}: #{subtitles.at_time(time, 2) { |p| p.words.best }}"
+# end
