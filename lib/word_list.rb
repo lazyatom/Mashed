@@ -1,6 +1,10 @@
 class WordList < Array
   def best
-    without_stop_words.proper_nouns.sort_by { |w| w.length }.last
+    nouns = proper_nouns
+    return nouns.sort_by { |w| w.length }.last if nouns.any?
+    good_words = without_stop_words
+    return good_words.sort_by { |w| w.length }.last if good_words.any?
+    sort_by { |w| w.length }.last
   end
 
   def shouts

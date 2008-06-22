@@ -24,24 +24,32 @@ class Well
       puts "#{timestamp}: #{result.inspect}"
     end
   end
+  
+  def at_time(time, window)
+    gathered_phrase = (time..(time + window)).inject(Phrase.new) do |phrase, timestamp|
+      phrase += @buckets[timestamp]
+    end
+    yield gathered_phrase
+  end
 end
 
 
 well = Well.new
 
-bucket_sizes = {
-  "1second" => /begin = "(\d\d:\d\d:\d\d)\.\d\d\d".*">([^<]*)/,
-  "10seconds" => /begin = "(\d\d:\d\d:\d)\d\.\d\d\d".*">([^<]*)/,
-  "1minute" => /begin = "(\d\d:\d\d):\d\d\.\d\d\d".*">([^<]*)/
-}
+timestamp_regexp = /begin = "(\d\d):(\d\d):(\d\d)\.\d\d\d".*">([^<]*)/
 
 File.readlines(ARGV[0]).each do |line|
-  matches = bucket_sizes[ARGV[1] || "10seconds"].match(line)
+  matches = timestamp_regexp.match(line)
   if matches
-    timestamp = matches[1]
-    phrase = matches[2]
+    hours, minutes, seconds = matches[1], matches[2], matches[3]
+    timestamp = (hours.to_i * 3600) + (minutes.to_i * 60) + seconds.to_i
+    phrase = matches[4]
     well.add(timestamp, phrase)
   end
 end
 
-well.show { |p| p.words.without_stop_words }
+well.show { |p| p.words }
+
+1.step(50, 2) do |time|
+  puts "#{time}: #{well.at_time(time, 2) { |p| p.words.best }}"
+end

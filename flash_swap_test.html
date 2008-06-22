@@ -2,6 +2,21 @@
 <title>Subterranean Homesick News</title>
 
 <script>
+
+/*
+  Word Timings
+  
+  1: 8.4
+  2: 11.2
+  3: 12.5
+  4: 13.9
+  5: 16.0
+  6: 18.0
+  7: 19.8
+  8: 21.4
+  9: ?
+*/
+
   var currentMovie = "";
   var mainLoopDuration = 17500;
   var introDuration = 9000;
@@ -25,17 +40,15 @@
       var element = document.getElementById("movie1");
     }
     var embedTag = '<h1>' + element.id + '</h1>';
-    
-    flashVars = "";
-    for(i = 0; i < arguments.length; i++) {
-      flashVars += "field" + (i+1) + "=" + arguments[i];
-    }
+
+    var messages = "";
+    for(i = 0; i < arguments.length; i++) { messages += arguments[i] + ',' }
     
     embedTag += '<embed width="951" height="500" quality="high"';
     embedTag += ' name="PluginObject_plugin_gbL4xY949Bc0765916b4"';
     embedTag += ' id="PluginObject_plugin_gbL4xY949Bc0765916b4"';
-    embedTag += ' flashvars=' + flashVars;
-    embedTag += ' src="/preview.swf" type="application/x-shockwave-flash"/>';
+    embedTag += ' flashvars="messages=' + messages + '"';
+    embedTag += ' src="/dylan_flash/dylan.swf" type="application/x-shockwave-flash"/>';
     element.innerHTML = embedTag;
   }
 
