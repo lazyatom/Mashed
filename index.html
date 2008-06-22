@@ -1,0 +1,39 @@
+<html>
+<head>
+  <script>
+  function gup( name )
+  {
+    name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+    var regexS = "[\\?&]"+name+"=([^&#]*)";
+    var regex = new RegExp( regexS );
+    var results = regex.exec( window.location.href );
+    if( results == null )
+      return "";
+    else
+      return results[1];
+  }  
+  </script>
+
+  <style>
+    iframe {
+      border: 0;
+      float: left;
+      overflow: hidden;
+    }
+    
+    iframe.dylan {
+      width: 550px;
+      height: 400px;
+    }
+    
+    iframe.bbc {
+      width: 400px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <iframe class="dylan" src="/subterranean_homesick_news.html"></iframe>
+  <iframe class="bbc" src="/redux.html"></iframe>
+</body>
+</html>
