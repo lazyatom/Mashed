@@ -10,7 +10,8 @@ class Phrase
   end
   
   def +(other_phrase)
-    @content += " " + other_phrase.content
+    other_phrase = other_phrase.content if other_phrase.is_a?(Phrase)
+    @content += (" " + other_phrase)
     self
   end
 end

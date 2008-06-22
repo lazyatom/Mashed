@@ -1,6 +1,10 @@
 class WordList < Array
   def best
-    without_stop_words.proper_nouns.sort_by { |w| w.length }.last
+    good_words = without_stop_words
+    nouns = good_words.proper_nouns
+    return nouns.sort_by { |w| w.length }.last if nouns.any?
+    return good_words.sort_by { |w| w.length }.last if good_words.any?
+    sort_by { |w| w.length }.last
   end
 
   def shouts
@@ -9,8 +13,9 @@ class WordList < Array
   
   def proper_nouns
     proper_nouns = WordList.new
-    self.grep(/[A-Z][a-z]/).each do |pn| 
-      if self.index(pn) == 0 || /\./.match(self[self.index(pn)-1])
+    self.grep(/[A-Z][a-z]/).each do |pn|
+      index = self.index(pn)
+      unless index == 0 || /\./.match(self[index-1])
         proper_nouns << pn
       end
     end
